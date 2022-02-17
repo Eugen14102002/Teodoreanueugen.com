@@ -65,13 +65,18 @@ html{
 .navbar .menu li a:hover{
     color:red;
     }
+.navbar.sticky li a:hover{
+    color: rgb(39, 38, 38);
+}
+
     /* Menu btn styling */
-      .menu-btn{
-          color: #fff;
-          font-size: 23px;
-          cursor: pointer;
-          display: none;
-      }
+
+.menu-btn{
+     color: #fff;
+     font-size: 23px;
+     cursor: pointer;
+     display: none;
+     }
 
 /*Home Styling*/
 .home{
