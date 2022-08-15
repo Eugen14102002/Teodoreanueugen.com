@@ -114,7 +114,7 @@ html{
 section{
     padding: 100px 0;
 }
-.about, .services, .skills, .contact, .footer{
+.about, .services, .skills, .contact, .products, .footer{
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 .about .about-content,
@@ -304,6 +304,71 @@ section .title::after{
 }
 .skills .skills-content .right .adobe-photoshop::before{
     width: 65%;
+}
+/* Products section styling */
+.products .title::after{
+    content: "100% Naturale";
+}
+
+.products .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    margin: 15px;
+    text-align: center;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.products .carousel .card:hover{
+   background-color: red;
+}
+.products .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.products .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.3s;
+}
+.products .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.products .carousel .card img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid red;
+    transition: all ease 0.3s;
+}
+.products .carousel .card:hover img{
+    border-color: #fff;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 19px;
+    width: 19px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid red!important;
+    transition: all ease 0.3s;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot.active:hover{
+    background: red!important;
 }
 /*Contact section styling*/
 .contact .title::after{
