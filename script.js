@@ -62,14 +62,14 @@ function topFunction() {
 
 //Typing animation scroll
 var typed = new Typed(".typing",{
-   strings: ["Junior Web Developer.", "Freelancer.", "Designer.",],
+   strings: [ "Graphic Designer", "Web Developer", "Freelancer.",],
    typeSpeed: 100,
    backSpeed: 60,
    loop: true 
 });
 
 var typed = new Typed(".typing-2",{
-  strings: ["Junior Web Developer.", "Freelancer.", "Designer.",],
+  strings: [ "Graphic Designer", "Web Developer", "Freelancer.",],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true 
