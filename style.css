@@ -87,6 +87,7 @@ html{
     color: #fff;
     min-height: 500px;
     font-family: Georgia, Times, "Times New Roman", serif;
+    background-attachment: fixed;
 }
 
 .home .max-width{
