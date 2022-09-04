@@ -201,6 +201,7 @@ section .title::after{
 .about .about-content .right a:hover{
     color: red;
     background: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,  0px -3px 10px;
 }
 
 /*Services section styling*/
@@ -479,6 +480,7 @@ section .title::after{
 .contact .right form .button button:hover{
     color: red;
     background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,  0px -3px 10px;
 }
 
 /*Footer section styling*/
